@@ -15,3 +15,6 @@ def fact(request,n):
 
 def child(request):
     return render(request,"child.html")
+
+def base(request):
+    return render(request,"rsk1/base.html")
