@@ -7,7 +7,11 @@
     <title>BASE HTML FILE</title>
     {% endblock %}
 </head>
-<body>
-    <H1>WELCOME TO BASE.HTML</H1>
-</body>
+    
+    {% block body_block %}
+      <body>
+        <H1>WELCOME TO BASE.HTML</H1>
+      </body>
+    {% endblock %}
+ 
 </html>
